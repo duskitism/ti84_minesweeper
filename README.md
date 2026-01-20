@@ -5,4 +5,4 @@ A minesweeper recreation made specifically for the TI-84 Plus CE calculator
 # Showcase
 ![normal](screenshots/gameplay.png)
 ![win](screenshots/gameplay3.png)
-![irl](screenshots/gameplay3.JPG)
+![irl](screenshots/irl.JPG)
