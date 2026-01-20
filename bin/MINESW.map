@@ -7,9 +7,9 @@ Section          Base   Top    High   Length
 .init.reruncheck D1AA5B D1AA5B             0h
 .init            D1AA5B D1AA83            28h
 .fini            D1AA83 D1AAB7            34h
-.text            D1AAB7 D1C443          198Ch
-.data            D1C443 D1D96E          152Bh
-.rodata          D1D96E D1DB25           1B7h
+.text            D1AAB7 D1C446          198Fh
+.data            D1C446 D1D971          152Bh
+.rodata          D1D971 D1DB28           1B7h
 .init_array      000000 000000             0h
 .ctors           000000 000000             0h
 .dtors           000000 000000             0h
@@ -51,7 +51,7 @@ _os_DisableHomeTextBuffer                  = D1AC19
 _os_EnableHomeTextBuffer                   = D1AC2B
 _random                                    = D1AC3D
 _srandom                                   = D1AC94
-__state                                    = D1C443
+__state                                    = D1C446
 _os_FontGetHeight                          = 021E14
 _malloc                                    = D1ACCA
 _free                                      = D1AD9D
@@ -59,14 +59,14 @@ __standard_malloc                          = D1ACCA
 __standard_free                            = D1AD9D
 __standard_realloc                         = D1AE4B
 __alloc_base                               = D052C6
-_heap_ptr                                  = D1C453
+_heap_ptr                                  = D1C456
 _clock                                     = D1AEC1
 _memcpy                                    = 0000A4
 _memset                                    = D1AECC
-.missingappvar                             = D1D96E
-.libloadname                               = D1D973
+.missingappvar                             = D1D971
+.libloadname                               = D1D976
 .libloadnamelen                            = 000007
-.webaddress                                = D1D97B
+.webaddress                                = D1D97E
 ___init_clock                              = D1AA40
 __start                                    = D1AA5B
 ___exithl                                  = D1AA83
@@ -110,39 +110,39 @@ _game_render_grid                          = D1C085
 _game_render                               = D1C294
 _game_on_loss                              = D1C30E
 _game_update_state                         = D1C328
-_game_update                               = D1C378
-_game_init                                 = D1C3A2
-_init                                      = D1C3D9
-_main                                      = D1C43B
-___const.sprites_alloc_general.raw_general = D1D990
+_game_update                               = D1C37B
+_game_init                                 = D1C3A5
+_init                                      = D1C3DC
+_main                                      = D1C43E
+___const.sprites_alloc_general.raw_general = D1D993
 _CELL_SIZE                                 = D052CC
 _FAILURE                                   = D052CD
-___const.sprites_alloc_numbers.raw_numbers = D1D99F
-_.str                                      = D1D9B7
-_.str.1                                    = D1D9BF
-_.str.2                                    = D1D9C4
-_.str.3                                    = D1D9CC
-_.str.4                                    = D1D9D3
-_.str.5                                    = D1D9D8
-_.str.6                                    = D1D9DD
-_.str.7                                    = D1D9E3
-___const.ui_instructions.list              = D1D9E9
-_.str.8                                    = D1DA01
-_.str.9                                    = D1DA0A
-_.str.10                                   = D1DA11
-_bomb_data                                 = D1C456
-_flag_data                                 = D1C858
-_eight_data                                = D1CC5A
-_five_data                                 = D1CD5C
-_four_data                                 = D1CE5E
-_one_data                                  = D1CF60
-_seven_data                                = D1D062
-_six_data                                  = D1D164
-_three_data                                = D1D266
-_two_data                                  = D1D368
-_s_clock_data                              = D1D46A
-_selected_tile_data                        = D1D86C
-_tile_data                                 = D1DA23
+___const.sprites_alloc_numbers.raw_numbers = D1D9A2
+_.str                                      = D1D9BA
+_.str.1                                    = D1D9C2
+_.str.2                                    = D1D9C7
+_.str.3                                    = D1D9CF
+_.str.4                                    = D1D9D6
+_.str.5                                    = D1D9DB
+_.str.6                                    = D1D9E0
+_.str.7                                    = D1D9E6
+___const.ui_instructions.list              = D1D9EC
+_.str.8                                    = D1DA04
+_.str.9                                    = D1DA0D
+_.str.10                                   = D1DA14
+_bomb_data                                 = D1C459
+_flag_data                                 = D1C85B
+_eight_data                                = D1CC5D
+_five_data                                 = D1CD5F
+_four_data                                 = D1CE61
+_one_data                                  = D1CF63
+_seven_data                                = D1D065
+_six_data                                  = D1D167
+_three_data                                = D1D269
+_two_data                                  = D1D36B
+_s_clock_data                              = D1D46D
+_selected_tile_data                        = D1D86F
+_tile_data                                 = D1DA26
 lib.LibLoad                                = D1A9E7
 _#gfx_Begin                                = D1A9FA
 _#gfx_End                                  = D1A9FE

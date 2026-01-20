@@ -515,7 +515,7 @@ void game_on_loss(Game* g) {
 void game_update_state(Game* g) {
     if (g->state != (GameState) Normal) return;
     stopwatch_update(&g->stopwatch);
-    if (g->board.dug_mine) game_on_loss(g);
+    if (g->board.dug_mine) { game_on_loss(g); return; }
 
     const unsigned SAFE_COUNT = (DIMENSIONS * DIMENSIONS) - MINE_COUNT;
     if (g->board.reveal_count == SAFE_COUNT) g->state = Win;
